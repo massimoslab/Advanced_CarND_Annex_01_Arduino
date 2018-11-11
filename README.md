@@ -66,7 +66,6 @@ The Arduino IDE can be downloaded from the following link:
 
 **Massimo Passamonti**: [email me](mailto:mpweb2.0@gmail.com)
 
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
