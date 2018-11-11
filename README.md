@@ -50,10 +50,24 @@ The image below shows the different pins of an Arduino Micro and how they can be
 
 The language used to program the microcontrollers has very similar characteristics to C and C++. Therefore, if you have already programmed in either of these languages you should not have any particular issue.
 
+Below is a "Hello World" code for the Arduino.
 
 ```
-Examples
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.println("Hello World!");
+}
 ```
+
+#### Understanding the code
+
+The **void setup()** function is run first with its content between brackets. The **Serial.begin(9600)** sets up the speed of the serial port to 9600 baud. The baud setting in the serial monitor window must match this value so that the Arduino and serial monitor window are communicating at the same speed.
+
+The **void loop()** function is run second with all its content between brackets.
+The **Serial.println("Hello, world!")** sends the text *Hello World!* to the serial / USB port for display in the serial monitor window.
 
 ### Purchases and Downloads
 The Arduino can be purchased from the following link:
