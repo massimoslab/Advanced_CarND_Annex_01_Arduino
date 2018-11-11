@@ -69,17 +69,17 @@ The **void setup()** function is run first with its content between brackets. Th
 The **void loop()** function is run second with all its content between brackets.
 The **Serial.println("Hello, world!")** sends the text *Hello World!* to the serial / USB port for display in the serial monitor window.
 
-### Purchases and Downloads
+## 05. Purchases and Downloads
 The Arduino can be purchased from the following link:
 [Purchase an Arduino](https://store.arduino.cc/)
 
 The Arduino IDE can be downloaded from the following link:
 [Download the Arduino IDE here](https://www.arduino.cc/en/Main/Software)
 
-## Authors
+## Author
 
 **Massimo Passamonti**: [email me](mailto:mpweb2.0@gmail.com)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project and its source code are licensed under the MIT License. [See MIT License](https://github.com/github/choosealicense.com/blob/gh-pages/LICENSE.md) file for details.
