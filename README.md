@@ -1,7 +1,8 @@
 [image1]: ./images/arduino_uno.jpg
 [image2]: ./images/arduino_micro.jpg
+[image3]: ./images/arduino_micro_pins.jpg
 
-# Annex 01 : Arduino Basics
+# Annex 01 : Foreword
 
 In This Annex we will explore some of the basics of the Arduino. More specifically, we will look at:
 
@@ -9,93 +10,63 @@ In This Annex we will explore some of the basics of the Arduino. More specifical
 * the programming language used for the Arduino
 * an example of project made with an Arduino
 
+## 01. Arduino Basics
 
-this is the first image
+The idea of an Arduino is to use its microcontroller in order to:
+* process data that are provided as an input to the Arduino through its input pins, or
+* process data so that a signal can be sent to external device through its output pins.
+
+The Arduino's microcontroller is a simple computer that can run one program at a time in a loop. An Arduino is particularly interesting to execute specific tasks. In our case these tasks will be:
+* providing throttle signal to the motor
+* provide the steering angle to a so called servo motor
+
+## 02. The Arduino devices
+
+The most commonly used Arduino is the Arduino Uno. The image below show an Arduino Uno:
 
 ![alt text][image1]
+
+For our project, however, we do not need the full computational power and pins of the Arduino Uno and we can, therefore, use a cheaper version: the Arduino Micro. The image below shows the Arduino Micro:
+
 ![alt text][image2]
 
+There are many other devices that belon to the Arduino family such as: the Arduino Due, Leonardo, Mega, Nano, Zero, M0 and many more.
 
-## 01. Getting Started
+## 03. Arduino Micro pins
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+All Arduino boards are equipped with sets of pins. The pins can be connected to a variety of sensors, motors, and other devices. The pins are of two types:
+* digital, and
+* analog
 
-### Prerequisites
+Furthermore, the pins can be used in two different ways, either as:
+* input, or
+* output
 
-What things you need to install the software and how to install them
+The image below shows the different pins of an Arduino Micro and how they can be used.
 
-```
-Give examples
-```
+![alt text][image3]
 
-### Installing
+## 04. Programming an Arduino
 
-A step by step series of examples that tell you how to get a development env running
+The language used to program the microcontrollers has very similar characteristics to C and C++. Therefore, if you have already programmed in either of these languages you should not have any particular issue.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
 
 ```
-until finished
+Examples
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+### Purchases and Downloads
+The Arduino can be purchased from the following link:
+[Purchase an Arduino](https://store.arduino.cc/)
 
-## 02. Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 03. Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## 04. Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+The Arduino IDE can be downloaded from the following link:
+[Download the Arduino IDE here](https://www.arduino.cc/en/Main/Software)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+**Massimo Passamonti**: [email me](mailto:mpweb2.0@gmail.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
