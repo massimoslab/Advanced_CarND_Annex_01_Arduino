@@ -24,9 +24,7 @@ The Arduino's microcontroller is a simple computer that can run one program at a
 
 The most commonly used Arduino is the Arduino Uno. The image below show an Arduino Uno:
 
-<p align="center">
-    ![alt text][image1]
-</p>
+![alt text][image1]
 
 For our project, however, we do not need the full computational power and pins of the Arduino Uno and we can, therefore, use a cheaper version: the Arduino Micro. The image below shows the Arduino Micro:
 
