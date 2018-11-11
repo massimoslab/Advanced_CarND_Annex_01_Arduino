@@ -1,11 +1,13 @@
+[image1]: ./images/traffic_light.png
+
 # Annex 01 : Arduino Basics
 
-One Paragraph of project description goes here. Change done.
+In This Annex we will explore some of the basics of the Arduino. More specifically we will look at:
 
-* first bullet point
-* second bullet point
+* the Arduino device itself
+* the programming language used for the Arduino
+* an example of project made with an Arduino
 
-[image1]: ./images/traffic_light.png
 
 this is the first image
 
