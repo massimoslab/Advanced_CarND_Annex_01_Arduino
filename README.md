@@ -1,8 +1,9 @@
-[image1]: ./images/traffic_light.png
+[image1]: ./images/arduino_uno.jpg
+[image2]: ./images/arduino_micro.jpg
 
 # Annex 01 : Arduino Basics
 
-In This Annex we will explore some of the basics of the Arduino. More specifically we will look at:
+In This Annex we will explore some of the basics of the Arduino. More specifically, we will look at:
 
 * the Arduino device itself
 * the programming language used for the Arduino
@@ -12,6 +13,8 @@ In This Annex we will explore some of the basics of the Arduino. More specifical
 this is the first image
 
 ![alt text][image1]
+![alt text][image2]
+
 
 ## 01. Getting Started
 
