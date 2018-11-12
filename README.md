@@ -2,7 +2,7 @@
 [image2]: ./images/arduino_micro.jpg
 [image3]: ./images/arduino_micro_pins.jpg
 
-# Annex 01 : Foreword
+# Annex 02 : Arduino Basics
 
 In This Annex we will explore some of the basics of the Arduino. More specifically, we will look at:
 
@@ -10,7 +10,7 @@ In This Annex we will explore some of the basics of the Arduino. More specifical
 * the programming language used for the Arduino
 * an example of project made with an Arduino
 
-## 01. Arduino Basics
+## 01. The Arduino
 
 The idea of an Arduino is to use its microcontroller in order to:
 * process data that are provided as an input to the Arduino through its input pins, or
@@ -71,7 +71,7 @@ The **Serial.println("Hello, world!")** sends the text *Hello World!* to the ser
 
 ## 05. Purchases and Downloads
 The Arduino can be purchased from the following link:
-[Purchase an Arduino](https://store.arduino.cc/)
+[Purchase an Arduino here](https://store.arduino.cc/)
 
 The Arduino IDE can be downloaded from the following link:
 [Download the Arduino IDE here](https://www.arduino.cc/en/Main/Software)
