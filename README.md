@@ -2,7 +2,7 @@
 [image2]: ./images/arduino_micro.jpg
 [image3]: ./images/arduino_micro_pins.jpg
 
-# Annex 02 : Arduino Basics
+# Annex 01 : Arduino Basics
 
 In This Annex we will explore some of the basics of the Arduino. More specifically, we will look at:
 
@@ -67,7 +67,7 @@ void loop() {
 The **void setup()** function is run first with its content between brackets. The **Serial.begin(9600)** sets up the speed of the serial port to 9600 baud. The baud setting in the serial monitor window must match this value so that the Arduino and serial monitor window are communicating at the same speed.
 
 The **void loop()** function is run second with all its content between brackets.
-The **Serial.println("Hello, world!")** sends the text *Hello World!* to the serial / USB port for display in the serial monitor window.
+The **Serial.println("Hello World!")** sends the text *Hello World!* to the serial / USB port for display in the serial monitor window.
 
 ## 05. Purchases and Downloads
 The Arduino can be purchased from the following link:
@@ -78,7 +78,7 @@ The Arduino IDE can be downloaded from the following link:
 
 ## Author
 
-**Massimo Passamonti**: [email me](mailto:mpweb2.0@gmail.com)
+**Massimo Passamonti**: [email me](me@massimoslab.com)
 
 ## License
 
