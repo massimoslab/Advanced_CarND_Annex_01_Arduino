@@ -1,4 +1,3 @@
-
 String message = "Hello World!";
 
 void setup() {
